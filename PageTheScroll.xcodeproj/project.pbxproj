@@ -218,6 +218,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -424,7 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.PageTheScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -437,7 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisszurbyk.PageTheScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -518,6 +519,7 @@
 				0C366C851E2EBFD900524362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C366C861E2EBFD900524362 /* Build configuration list for PBXNativeTarget "PageTheScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				0C366C881E2EBFD900524362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C366C891E2EBFD900524362 /* Build configuration list for PBXNativeTarget "PageTheScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +537,7 @@
 				0C366C8B1E2EBFD900524362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
